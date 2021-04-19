@@ -53,7 +53,7 @@ const products = [
   },
   {
     _id: "5",
-    name: "Warrior Pro Player Medium 28in. Hockey Equipment Bag",
+    name: "Warrior Pro 28in. Hockey Equipment Bag",
     image: "/images/WarriorBag.jpg",
     description:
       "Pro locker room size and specifications used by pro teams, large durable main compartment, internal mesh skate pockets, and fully customizable. Dimensions are 28in X 15in X 15in.",
@@ -73,7 +73,7 @@ const products = [
     category: "Pucks",
     price: 1.99,
     countInStock: 0,
-    rating: 4,
+    rating: 4.5,
     numReviews: 12,
   },
 ];
