@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: "1",
     name: "Warrior Alpha DX Grip Senior Hockey Stick",
     image: "/images/WarriorStick.jpg",
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "2",
     name: "Bauer Vapor 2x Pro Senior Ice Hockey Skates",
     image: "/images/BauerSkates.jpg",
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: "3",
     name: "CCM 50 Senior Hockey Helmet Combo",
     image: "/images/CCMHelmet.jpg",
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "4",
     name: "SherWood Rekker M80 Senior Hockey Gloves",
     image: "/images/SherwoodGloves.jpg",
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "5",
     name: "Warrior Pro 28in. Hockey Equipment Bag",
     image: "/images/WarriorBag.jpg",
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: "6",
     name: "Bauer Standard Ice Hockey Puck",
     image: "/images/BauerPuck.jpg",
     description: "Bauer's standard ice hockey puck.",
