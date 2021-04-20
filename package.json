@@ -1,0 +1,22 @@
+{
+  "name": "hockeyshop",
+  "version": "1.0.0",
+  "description": "MERN shopping cart app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duncangw1/HockeyShop.git"
+  },
+  "author": "Gene Duncan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duncangw1/HockeyShop/issues"
+  },
+  "homepage": "https://github.com/duncangw1/HockeyShop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
