@@ -5,7 +5,10 @@ import { Row, Col, Image, ListGroup, Card, Button } from "react-bootstrap";
 import Rating from "../components/Rating";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
-import { listProductDetails } from "../actions/productActions";
+import {
+  listProductDetails,
+  clearProductDetails,
+} from "../actions/productActions";
 
 const ProductScreen = ({ match }) => {
   const dispatch = useDispatch();
@@ -15,6 +18,10 @@ const ProductScreen = ({ match }) => {
 
   useEffect(() => {
     dispatch(listProductDetails(match.params.id));
+
+    return () => {
+      dispatch(clearProductDetails());
+    };
   }, [dispatch, match]);
 
   return (
