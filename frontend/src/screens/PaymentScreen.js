@@ -42,7 +42,7 @@ const PaymentScreen = ({ history }) => {
             ></Form.Check>
             <Form.Check
               type="radio"
-              label="Stripe"
+              label="Stripe (coming soon)"
               id="Stripe"
               name="paymentMethod"
               value="Stripe"
