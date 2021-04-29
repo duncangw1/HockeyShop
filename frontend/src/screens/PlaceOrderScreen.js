@@ -43,6 +43,16 @@ const PlaceOrderScreen = () => {
                 {cart.shippingAddress.state}, {cart.shippingAddress.postalCode},{" "}
                 {cart.shippingAddress.country}
               </p>
+              {cart.itemsPrice > 100 ? (
+                <small className="text-success">
+                  Free shipping applied! Item(s) have reached $100+.
+                </small>
+              ) : (
+                <small className="text-danger">
+                  Not qualified for free shipping. Item(s) subtotal must reach
+                  $100+.
+                </small>
+              )}
             </ListGroup.Item>
 
             <ListGroup.Item>
@@ -74,7 +84,8 @@ const PlaceOrderScreen = () => {
                           </Link>
                         </Col>
                         <Col md={4}>
-                          {item.qty} x ${item.price} = ${item.qty * item.price}
+                          {item.qty} x ${item.price} = $
+                          {addDecimals(item.qty * item.price)}
                         </Col>
                       </Row>
                     </ListGroup.Item>

@@ -100,7 +100,8 @@ const CartScreen = ({ match, location, history }) => {
               $
               {cartItems
                 .reduce((acc, item) => acc + item.qty * item.price, 0)
-                .toFixed(2)}
+                .toFixed(2)}{" "}
+              <small className="text-muted">*free shipping at $100+</small>
             </ListGroup.Item>
             <ListGroup.Item>
               <Button
