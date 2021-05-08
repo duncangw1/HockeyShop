@@ -4,7 +4,7 @@ import { Table, Button } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
-import { listOrders, deleteOrder } from "../actions/orderActions";
+import { listOrders } from "../actions/orderActions";
 
 const OrderListScreen = ({ history }) => {
   const dispatch = useDispatch();
@@ -15,22 +15,13 @@ const OrderListScreen = ({ history }) => {
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
 
-  const orderDelete = useSelector((state) => state.orderDelete);
-  const { success: successDelete } = orderDelete;
-
   useEffect(() => {
     if (userInfo && userInfo.isAdmin) {
       dispatch(listOrders());
     } else {
       history.push("/login");
     }
-  }, [dispatch, history, userInfo, successDelete]);
-
-  const deleteHandler = (id) => {
-    if (window.confirm("Are you sure?")) {
-      dispatch(deleteOrder(id));
-    }
-  };
+  }, [dispatch, history, userInfo]);
 
   return (
     <>
@@ -44,6 +35,7 @@ const OrderListScreen = ({ history }) => {
           <thead>
             <tr>
               <th>ID</th>
+              <th>USER</th>
               <th>DATE</th>
               <th>TOTAL</th>
               <th>PAID</th>
@@ -55,8 +47,9 @@ const OrderListScreen = ({ history }) => {
             {orders.map((order) => (
               <tr key={order._id}>
                 <td>{order._id}</td>
+                <td>{order.user && order.user.name}</td>
                 <td>{order.createdAt.substring(0, 10)}</td>
-                <td>{order.totalPrice}</td>
+                <td>${order.totalPrice}</td>
                 <td>
                   {order.isPaid ? (
                     order.paidAt.substring(0, 10)
@@ -72,18 +65,11 @@ const OrderListScreen = ({ history }) => {
                   )}
                 </td>
                 <td>
-                  <LinkContainer to={`/admin/order/${order._id}/edit`}>
+                  <LinkContainer to={`/order/${order._id}`}>
                     <Button variant="light" className="btn-sm">
-                      <i className="fas fa-edit"></i>
+                      Details
                     </Button>
                   </LinkContainer>
-                  <Button
-                    variant="danger"
-                    className="btn-sm"
-                    onClick={() => deleteHandler(order._id)}
-                  >
-                    <i className="fas fa-trash"></i>
-                  </Button>
                 </td>
               </tr>
             ))}
