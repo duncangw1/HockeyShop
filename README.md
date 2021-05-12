@@ -10,6 +10,10 @@ Welcome to HockeyShop! ... placeholder text ... Please view the deployed applica
 
 - [Installation](#installation)
 - [Usage](#usage)
+  - [Home Screen](#home-screen)
+  - [Sign Up](#sign-up)
+  - [Sign In](#sign-in)
+  - [Product Details](#product-details)
 - [License](#licenses)
 - [Contributing](#contributing)
 - [Tests](#tests)
@@ -29,7 +33,7 @@ HockeyShop is a fully functional E-Commerce store that was built purely for demo
 
 ---
 
-### Home Page
+### Home Screen
 
 ...placeholder
 
@@ -47,7 +51,7 @@ HockeyShop is a fully functional E-Commerce store that was built purely for demo
 
 ---
 
-### Product Info Page
+### Product Details
 
 ...placeholder
 
