@@ -1,10 +1,10 @@
-# # HockeyShop
+# HockeyShop
 
 # [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-Welcome to HockeyShop! ... placeholder text ... Please view the deployed application [here](https://hockeyshop.herokuapp.com/) or navigate to the [Installation](#installation) section below for instructions on how to run the application locally.
+Welcome to HockeyShop! ... placeholder text ... Please view the deployed application [here](https://hockeyshop.herokuapp.com/) or navigate to the [Usage](#usage) section below to view a self-guided tour through the application's functionality.
 
 ## Table of Contents
 
@@ -27,27 +27,39 @@ _Guidelines for usage & application demo._
 
 HockeyShop is a fully functional E-Commerce store that was built purely for demo purposes only. As such, it is a robust and complex application. Please view the sections below for a detailed guide through its awesome functionality!
 
+---
+
 ### Home Page
 
 ...placeholder
+
+---
 
 ### Sign Up
 
 ...placeholder
 
+---
+
 ### Sign In
 
 ...placeholder
 
+---
+
 ### Product Info Page
 
 ...placeholder
+
+---
 
 ### Many more sections to come...
 
 ...placeholder
 
 ![placeholder image](public/images/sample.jpg)
+
+---
 
 ## Licenses
 
