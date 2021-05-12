@@ -57,7 +57,7 @@ HockeyShop is a fully functional E-Commerce store that was built purely for demo
 
 ...placeholder
 
-![placeholder image](public/images/sample.jpg)
+![placeholder image](frontend/public/images/sample.jpg)
 
 ---
 
