@@ -14,6 +14,17 @@ Welcome to HockeyShop! ... placeholder text ... Please view the deployed applica
   - [Sign Up](#sign-up)
   - [Sign In](#sign-in)
   - [Product Details](#product-details)
+  - [User Profile](#user-profile)
+  - [Cart](#cart)
+  - [Checkout Process](#checkout-process)
+  - [Admin Dashboard](#admin-dashboard)
+    - [Users List](#users-list)
+    - [Edit User Info](#edit-user-info)
+    - [Products List](#products-list)
+    - [Edit Product Info](#edit-product-info)
+    - [Create New Product](#create-new-product)
+    - [Orders List](#orders-list)
+    - [Update Order Info](#update-order-info)
 - [License](#licenses)
 - [Contributing](#contributing)
 - [Tests](#tests)
@@ -57,11 +68,57 @@ HockeyShop is a fully functional E-Commerce store that was built purely for demo
 
 ---
 
-### Many more sections to come...
+### User Profile...
 
 ...placeholder
 
 ![placeholder image](frontend/public/images/sample.jpg)
+
+---
+
+### Cart
+
+...placeholder
+
+---
+
+### Checkout Process
+
+...placeholder
+
+---
+
+### Admin Dashboard
+
+...placeholder
+
+#### Users List
+
+...placeholder
+
+#### Edit User Info
+
+...placeholder
+
+#### Products List
+
+...placeholder
+
+#### Edit Product Info
+
+...placeholder
+
+#### Create New Product
+
+...placeholder
+
+#### Orders List
+
+...placeholder
+
+#### Update Order Info
+
+...placeholder
 
 ---
 
