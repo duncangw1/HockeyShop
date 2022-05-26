@@ -94,47 +94,59 @@ NOTE: Admin users will see additional dropdown options that are used to manage a
 
 ### Cart
 
-...placeholder
+Click `Cart` in the top right to view all items that have been added to your cart. From this screen, you may update the quantities of the cart items, delete them from your cart, or proceed to checkout.
+
+![HockeyShop Cart](frontend/public/images/HockeyShop2.png)
 
 ---
 
 ### Checkout Process
 
-...placeholder
+Once `Proceed to Checkout` is clicked within your [Cart](#cart), the checkout process will begin!
+
+If you aren't signed in, you will first be redirected to the [Sign In](#sign-in) screen. Otherwise, you will be required to input your shipping info, select a payment method (PayPal is the only option currently), and then finalize the order by pressing `Place Order`:
+
+After doing so, you will see the order confirmation screen displaying all of the details from your order. You will then have the ability to pay via PayPal or Credit/Debit card through the PayPal API (please note this is a demo app and utlizes the PayPal sandbox - so no real payments are processed):
+
+Once payment is successfully submitted, the order confirmation screen will update to display a green `Paid on` message including the timestamp of the payment:
 
 ---
 
 ### Admin Dashboard
 
-...placeholder
+Admin users will have access to an extensive Admin dashboard that gives them complete control to add/edit/delete users, products, and existing orders within the platform. This may be accessed by clicking the `Admin` dropdown and selecting either `Users`, `Products`, or `Orders`:
 
 #### Users List
 
-...placeholder
+The users list allows an Admin to easily view a list of all active users and provides the options to edit or delete those users:
 
 #### Edit User Info
 
-...placeholder
+Editing a user's info will let the Admin change the user's name, email address, and Admin status:
 
 #### Products List
 
-...placeholder
+The products list displays all existing products, along with the product ID, name, price, category, and brand. From this dashboard, an Admin has the ability to easily add/edit/delete products:
 
 #### Edit Product Info
 
-...placeholder
+Editing a product's info allows the Admin to alter a product's name, price, image, brand, count in stock, category, and description:
 
 #### Create New Product
 
-...placeholder
+Creating a new product is nearly identical to editing an existing product, except an entirely new product will be added to the platform upon creation:
 
 #### Orders List
 
-...placeholder
+The orders list is where the Admin may view all orders that have been placed within the platform. The info included here is the order ID, user, date, total, paid status, delivered status, and a direct link to that order's confirmation page:
 
 #### Update Order Info
 
-...placeholder
+When clicking on the order `Details` within the [Orders List](#orders-list), Admins have the ability to `Mark as Delivered` for any orders that have not been previously marked as delivered:
+
+No other order info is able to be manually updated/edited for record keeping puposes.
+
+It's also important to note that, when a user pays for their order, the order confirmation screen will update to display a green `Paid on` message indicating payment has been received for that particular order (this was previously covered within the [Checkout Process](#checkout-process) section as well):
 
 ---
 
