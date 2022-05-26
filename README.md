@@ -106,7 +106,7 @@ Once `Proceed to Checkout` is clicked within your [Cart](#cart), the checkout pr
 
 If you aren't signed in, you will first be redirected to the [Sign In](#sign-in) screen. Otherwise, you will be required to input your shipping info, select a payment method (PayPal is the only option currently), and then finalize the order by pressing `Place Order`:
 
-After doing so, you will see the order confirmation screen displaying all of the details from your order. You will then have the ability to pay via PayPal or Credit/Debit card through the PayPal API (please note this is a demo app and utlizes the PayPal sandbox - so no real payments are processed):
+After doing so, you will see the order confirmation screen displaying all of the details from your order. You will then have the ability to pay via PayPal or Credit/Debit card through the PayPal API (please note this is a demo app and it utilizes the PayPal sandbox - no real payments are processed):
 
 Once payment is successfully submitted, the order confirmation screen will update to display a green `Paid on` message including the timestamp of the payment:
 
@@ -154,7 +154,7 @@ It's also important to note that, when a user pays for their order, the order co
 
 MIT License
 
-Copyright (c) 2021 duncangw1
+Copyright (c) 2022 duncangw1
 
 ## Contributing
 
