@@ -82,11 +82,13 @@ Select any product from the home screen to view the product details page. The de
 
 ---
 
-### User Profile...
+### User Profile
 
 When logged in as a normal user, click on your name in the top right and choose `Profile` from the dropdown menu. Within the user profile, you have the ability to update your name, email address, and password. You're also able to view your complete order history from this screen, including all order statuses and links to the original order confirmations:
 
 ![User Profile](frontend/public/images/UserProfile.gif)
+
+NOTE: Admin users will see additional dropdown options that are used to manage all users and products within the app. Please refer to the [Admin Dashboard](#admin-dashboard) section below for more info!
 
 ---
 
