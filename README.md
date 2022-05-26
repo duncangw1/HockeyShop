@@ -4,7 +4,9 @@
 
 ## Description
 
-Welcome to HockeyShop! ... placeholder text ... Please view the deployed application [here](https://hockeyshop.herokuapp.com/) or navigate to the [Usage](#usage) section below to view a self-guided tour through the application's functionality.
+Welcome to HockeyShop! This app is a fully funtioncal E-Commerce store built using the MERN stack. Notable features include user authenticaion, user profiles, Admin-level product and user management tools, complete checkout process including shipping info and mock payment (via PayPal API), dynamic cart display, and product ratings plus reviews. Logging in or signing up is required to view the complete checkout process, order history, and all Admin-level functions. Please view the deployed application [here](https://hockeyshop.herokuapp.com/) or navigate to the [Usage](#usage) section below to view a self-guided tour through the application's functionality.
+
+Technologies used within this app: MongoDB, Express, React, Node.js, Redux, React Bootstrap, Mongoose, JavaScript, JWT Authenticaion, PayPal API, HTML, CSS.
 
 ## Table of Contents
 
@@ -46,33 +48,41 @@ HockeyShop is a fully functional E-Commerce store that was built purely for demo
 
 ### Home Screen
 
-...placeholder
+The first screen you'll see!
+
+![HockeyShop Home Page](frontend/public/images/HockeyShop0.png)
 
 ---
 
 ### Sign Up
 
-...placeholder
+Click `Sign In` on the top right of the page, then select `Register` to create a new account:
+
+![HockeyShop Sign Up process](frontend/public/images/SignUp.gif)
 
 ---
 
 ### Sign In
 
-...placeholder
+If you already have an existing account, simply click `Sign In` on the top right of the page!
+
+![HockeyShop Sign In page](frontend/public/images/SignIn.png)
 
 ---
 
 ### Product Details
 
-...placeholder
+Select any product from the home screen to view the product details page:
+
+![HockeyShop Product Details](frontend/public/images/HockeyShop1.png)
 
 ---
 
 ### User Profile...
 
-...placeholder
+When logged in as a normal user, click on your name in the top right and choose `Profile` from the dropdown menu:
 
-![placeholder image](frontend/public/images/sample.jpg)
+![User Profile](frontend/public/images/UserProfile.gif)
 
 ---
 
