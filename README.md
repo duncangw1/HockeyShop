@@ -4,9 +4,13 @@
 
 ## Description
 
-Welcome to HockeyShop! This app is a fully funtioncal E-Commerce store built using the MERN stack. Notable features include user authenticaion, user profiles, Admin-level product and user management tools, complete checkout process including shipping info and mock payment (via PayPal API), dynamic cart display, and product ratings plus reviews. Logging in or signing up is required to view the complete checkout process, order history, and all Admin-level functions. Please view the deployed application [here](https://hockeyshop.herokuapp.com/) or navigate to the [Usage](#usage) section below to view a self-guided tour through the application's functionality.
+Welcome to HockeyShop!
 
-Technologies used within this app: MongoDB, Express, React, Node.js, Redux, React Bootstrap, Mongoose, JavaScript, JWT Authenticaion, PayPal API, HTML, CSS.
+This app is a fully funtioncal E-Commerce store built using the MERN stack. Notable features include user authenticaion, user profiles, Admin-level product and user management tools, complete checkout process including shipping info and mock payment (via PayPal API), dynamic cart display, and product ratings plus reviews. Logging in or signing up is required to view the complete checkout process, order history, and all Admin-level functions.
+
+Please view the deployed application [here](https://hockeyshop.herokuapp.com/) or navigate to the [Usage](#usage) section below to view a self-guided tour through the application's functionality.
+
+Technologies used to build this app include: MongoDB, Express, React, Node.js, Redux, React Bootstrap, Mongoose, JavaScript, JWT Authenticaion, PayPal API, HTML, CSS.
 
 ## Table of Contents
 
@@ -72,7 +76,7 @@ If you already have an existing account, simply click `Sign In` on the top right
 
 ### Product Details
 
-Select any product from the home screen to view the product details page:
+Select any product from the home screen to view the product details page. The details shown here include product name, image, description, price, ratings, reviews, In-stock/Out-of-stock status, and quantity selection:
 
 ![HockeyShop Product Details](frontend/public/images/HockeyShop1.png)
 
@@ -80,7 +84,7 @@ Select any product from the home screen to view the product details page:
 
 ### User Profile...
 
-When logged in as a normal user, click on your name in the top right and choose `Profile` from the dropdown menu:
+When logged in as a normal user, click on your name in the top right and choose `Profile` from the dropdown menu. Within the user profile, you have the ability to update your name, email address, and password. You're also able to view your complete order history from this screen, including all order statuses and links to the original order confirmations:
 
 ![User Profile](frontend/public/images/UserProfile.gif)
 
