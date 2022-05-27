@@ -108,29 +108,39 @@ If you aren't signed in, you will first be redirected to the [Sign In](#sign-in)
 
 After doing so, you will see the order confirmation screen displaying all of the details from your order. You will then have the ability to pay via PayPal or Credit/Debit card through the PayPal API (please note this is a demo app and it utilizes the PayPal sandbox - no real payments are processed):
 
+![HockeyShop PayPal screen](frontend/public/images/HockeyShop8.png)
+
 Once payment is successfully submitted, the order confirmation screen will update to display a green `Paid on` message including the timestamp of the payment:
 
 ---
 
 ### Admin Dashboard
 
-Admin users will have access to an extensive Admin dashboard that gives them complete control to add/edit/delete users, products, and existing orders within the platform. This may be accessed by clicking the `Admin` dropdown and selecting either `Users`, `Products`, or `Orders`:
+Admin users will have access to an extensive Admin dashboard that gives them complete control to add/edit/delete users, products, and existing orders within the platform. This may be accessed by clicking the `Admin` dropdown and selecting either `Users`, `Products`, or `Orders`.
 
 #### Users List
 
 The users list allows an Admin to easily view a list of all active users and provides the options to edit or delete those users:
 
+![HockeyShop Admin User management](frontend/public/images/HockeyShop10.png)
+
 #### Edit User Info
 
 Editing a user's info will let the Admin change the user's name, email address, and Admin status:
+
+![HockeyShop Admin editing user info](frontend/public/images/HockeyShop14.png)
 
 #### Products List
 
 The products list displays all existing products, along with the product ID, name, price, category, and brand. From this dashboard, an Admin has the ability to easily add/edit/delete products:
 
+![HockeyShop Admin Product management](frontend/public/images/HockeyShop11.png)
+
 #### Edit Product Info
 
 Editing a product's info allows the Admin to alter a product's name, price, image, brand, count in stock, category, and description:
+
+![HockeyShop Admin editing product info](frontend/public/images/HockeyShop13.png)
 
 #### Create New Product
 
@@ -139,6 +149,8 @@ Creating a new product is nearly identical to editing an existing product, excep
 #### Orders List
 
 The orders list is where the Admin may view all orders that have been placed within the platform. The info included here is the order ID, user, date, total, paid status, delivered status, and a direct link to that order's confirmation page:
+
+![HockeyShop Admin Order management](frontend/public/images/HockeyShop12.png)
 
 #### Update Order Info
 
